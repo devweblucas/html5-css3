@@ -1,0 +1,1041 @@
+HTM5, CSS3 E JAVASCRIPT
+
+Aula 1
+
+https://github.com/gustavoguanabara
+
+https://gustavoguanabara.github.io/
+
+Aula 2
+
+Sim! Este curso é para mim.
+
+Aula complementar
+
+MB = armazenamento = MEGABYTES
+Mb = memória ram = MEGABITS
+
+1024 BITS = 1KB
+1024 KB = 1 MB
+
+"Os sites só funcionam quando estão guardados nos servidores da web"
+
+DOMÍNIO = Nome único do site, url que você dá pra alguém acessar no navegador.
+
+HOSPEDAGEM = Espaço para armazenar os arquivos, pago mensalmente, Espaço, memória e recursos.
+
+------------------------------------------------------------------------------------------------
+www.github.com/gustavoguanabara
+ 
+www = sub-domínio
+github = domínio
+.com = TLD
+/gustavoguanabra = caminho
+
+HTML é uma linguagem focada em conteúdo!
+CSS é focado em design!
+JS é uma linguagem de interações!
+
+
+Aula 3
+
+"Todo documento em html se inicia usando as tags < > e se encerra usando < / >"
+
+<head> : São as configurações do site.
+<body> : São os conteúdos do site.
+UTF-8 : Suporta acentuação.
+viewport : Significa que irá usar 100% da tela disponível do navegador.
+<h1> : título do site.
+<p> : Serve para delimitar parágrafos.
+<hr> : Faz uma linha horizontal embaixo do título.
+
+Aula 4 
+"Você pode colocar qualquer texto no parágrafo, basta que esteja entre <p> e </p>"
+
+<br> : Serve para quebrar linha de texto.
+&lt;br&gt; ; Serve para colocar as tags no texto como texto e não como tag.
+
+Aula 5
+
+<!----> : Serve para colocar comentários no código.
+
+SÍMBOLOS ESPECIAIS
+
+&reg; : símbolo do R
+&copy; : símbolo do C
+&trade;
+&euro;
+&pound;
+&yen;
+&cent;
+&Delta; : para o delta triângulo.
+&delta; : para o delta minúsculo.
+&uparrow;
+
+PARA ADICIONAR EMOJIS NOS SITES
+1- Entre no navegador e procure emojipedia ou semelhante.
+2- Escolha um emoji do seu gosto.
+3- Role a página para baixo e procure o código do emoji.
+4-Copie e cole no itenlij.
+
+&#xcódigodoemoji; : Serve para colocar um emoji, depois do x colocasse o código do emoji
+
+Aula 6
+
+Para utilizar imagens de pessoas sem tomar copyrigth
+
+Vá no google na aba imagens e depois clique em ferramentas e depois em liçencas e escolha liçenca comercial.
+
+SITES PARA IMAGENS SEM DIREITO AUTORAL
+
+unsplash
+pexels
+
+Editor de imagens
+
+Gimp
+
+Aula 7 
+
+Tipos de imagem JPEG e PNG.
+
+Aula 8
+
+Qual o tamanho máximo para de imagem usar em um site??
+
+1500 de largura
+ "Sites lentos não aparecem no google com tanta facilidade"	
+
+Aula 9
+
+<img src="" alt="">  : Serve para carregar uma imagem no site.
+
+você pode adicionar uma imagem de outro servidor no seu site, basta copiar a url da imagem!
+
+Aula 10
+
+Aula de fivcon
+
+fivcon é o ícone da aba do site!
+
+"O tamanho de um ícone de site é 16x16 e 32x32 pyxels"
+
+favicon é um site para criar ícones e transformar imagens em ícones.
+
+Para adicionar o ícone vá no <head> e em cima do <tile> coloque o <link> e escolha o favicon
+
+
+Aula 11
+
+Hierárquia de títulos:
+
+ <h2></h2>
+
+os h1, h2, h3 são muito relacionados ao tamanho, pois tem uma hierarquia entre eles!
+
+lorem : é um comando para gerar parágrafos aleatórios.
+
+Aula 12
+
+<style>
+  
+    body {
+     background-color: ;
+
+
+  }
+<style>
+
+
+ESTE CÓDIGO ACIMA, TEM QUE SER USADO NO HEAD
+
+
+HTML5 = Semântica e significado.
+CSS3  = Forma e estilo.
+
+W3 site para consultar tags obsoletas no HTML5
+
+Aula 13
+
+Para colocar um termo em negrito use a tag <b>
+
+A tag <b> não tem semântica.
+
+<strong> : termo para colocar em negrito usando em semântica.
+
+"Para colocar textos dentro das tags sem precisar arrastar você só seleciona o texto desejado, aperte em (CNTRL SHIFT P) e vai em abb 
+e depois clica em envelopar.
+
+<i> : Para colocar textos em itálico sem semântica.
+<em> : Serve para colocar textos em itálicos com semântica.
+
+Aula 14
+
+Mais tipos de formatações de textos.
+
+"Quase todos as tags possuem um style que é de CSS3 para modificar a forma do texto"
+
+<mark> : Serve para marcar o texto em amarelo
+
+Para modificar a cor do marca texto use a tag <mark style="background-color: cor;">
+
+<small> : Não né uma tag obsoleta e você a usa para diminuir um pouco a fonte.
+
+<del> : tag usada para cortar o texto no meio ou riscar, como preferir.
+
+PARA SUMBLINHAR UM TEXTO VOCÊ PODE USAR AS TAGS:
+
+<u>: Tag usada pra sublinhar o texto, mas não semântico.
+<ins: Tag usada para sublinhar o texto, mais semântico.
+
+TEXTO SOBREESCRITO E SUBESCRITO:
+
+<sup> : Tag usada para colocar coisas acima dos textos como a potência de um número.
+<sub> : Tag usada para colocas coisas abaixo do texto como a fórmula da água.
+
+Aula 15
+
+Como deixar a fonte com o espaçamento igual
+
+<code> : Tag usada para deixar o espaçamento igual em todas as letras.
+
+<pre> : Usada pra identar o texto no HTML5
+
+SHIFT + a tecla TAB é usada para voltar o código.
+
+<q> : Usada para colocar aspas no texto. Para colocar em citações.
+<blockquote> : Tag usada para citações em bloco. pois ela quebra a linha, ela desloca um pouco a citação para a direita.
+
+SE VOCÊ COLOCAR:
+
+<blockquote cite=""> : Para colocar a url do livro. Isso faz os mecânismos do Google ajudar na hora da pesquisa.
+
+<abbr title> : Serve para colocar o significado da silga ou na abreviação.
+
+Aula 16
+
+Listas OL e UL
+
+<ol> : Tag usada para ordenas as listas automaticamente.
+<li> : Tag usada para colocar o número nos ítens das listas.
+o /li é opcional no HTML5
+
+
+VOCÊ PODE CUSTOMIZAR O OL:
+coloque type="" e digite o tipo da lista, se vai ser em letras ou em números.
+
+VOCÊ PODE CUSTOMIZAR O UL:
+coloque type="" e digite (circle ou square) para colocar o formato da lista na bolinha ou quadrado
+só existem essas duas opções.
+
+Aula 17
+
+Listas mistas
+
+"Você pode colocar uma lista dentro de outra lista, um <ol> dentro de ul <ol>"
+
+"Para iniciar a lista dentro de outra lista, no último número que encerrou a lista,  você coloca start= Dentro do ol de dentro"
+
+<dl> : Serve para criar listas de definições com termos e descrições.
+<dt> : Termos
+<dd> : Descrições, ficam mais a direita.
+
+Isso ajuda nos mecânismos de busca do google.
+
+Aul 17
+
+Para colocar um link você precisa colocar a  tag :
+
+<a href=""> : Tag usada para ancorar um site.
+
+target= "_blank" rel= "external" : Serve par indicar que o link é externo e para não sobrepor o meu site.
+essa tag deve ser colocada dentro do link.
+
+para colocar downloads
+
+donwload=NOME DO ARQUIVO QUE VOCê QUER QUE TENHA QUANDO COMEÇAR A BAIXAR + TYPE= X
+
+Aula 18
+
+LINK INTERNO
+
+use o rel para ajudar no sistema de navegação
+coloque next e previous
+
+use rel= "nofollow" para os mecanismos de busca não indexar você aquele site, ou quando este site não é um site oficial,
+geralmente em patriocínio.
+
+target_self :serve para dizer pro comando que você quer que ele substitúa a aba.
+
+Se você tem uma pasta onde não está localizado código principal e para você retornar para esta página,
+basta digitar ../index.html
+
+Aula 19
+
+LINK PARA DOWNLOAD
+
+para acessar o media types clique aqui
+https://www.iana.org/assignments/media-types/media-types.xhtml
+
+Para colocar dowload no site, basta ancorar
+e depois colocar:
+
+download="" type="Tipo do arquivo"
+
+Aula 20
+
+IMAGENS QUE SE ADAPTAM SOZINHAS
+
+<picture> : É uma tag na qual irá aparecer uma imagem.
+<source media= (min-width: x)" srcset="x"
+
+a ordem das imagens tem que ser crescente
+
+Aula 21
+
+Aúdios nos sites
+
+use a tag <audio> para inserir um aúdio
+e depois use os parâmetros (controls)
+
+<audio>
+	<source src="X" type="audio/mpeg">
+	<source src="X" type="audio/ogg">
+	<source src="X" type="audio/wav">
+	<p>Infelizmente seu navegador não suporta aúdio, clique aqui para baixar o aúdio<p>
+
+
+</audio>
+
+autoplay: serve para tocar sozinho
+preload="metadata, auto, none" : METADATA vai carregar apenas as informações sobre o arquivo (tamanho, 
+tempo, informações de direitos, etc) 
+๏ NONE não vai carregar absolutamente nada até que o usuário clique no botão 
+play ou um script inicie a reprodução 
+๏ AUTO (padrão) vai carregar o arquivo de áudio inteiro assim que a página for 
+carregada, mesmo que o usuário nunca aperte o play  
+
+Aula 22
+
+OS NAVEGADORES FUNCIONAM COM FORMATOS DE VÍDEOS DIFERENTES
+
+para colocar vídeo use a tag <video>
+
+você pode modificar a largura do vídeo, use width="X"
+poster="" : Serve para colocar capa no vídeo
+
+a tag vídeos pode custar muito caro para hospedar.
+
+Aula 23
+
+Incorporação de vídeos externos
+
+Vá no youtube e escolha um vídeo depois o encorpore.
+
+
+Aula 24	
+
+PRIMEIROS PASSOS COM CSS3
+
+para mudar a cor do fundo use a tag style no body
+
+para mudar a cor da letra use a tag style/color in h or p
+
+font-family: muda a fonte do texto
+
+text-align: justify; : Serve para alinhar o texto
+
+ESSES MÉTODOS, SÃO MÉTODOS INLINE
+
+Aula 25
+
+Os estilos internos são no head!
+
+
+Você vai colocando os substítulos do body
+em baixo dele.
+
+Aula 25
+
+
+ESTILOS EXTERNOS
+
+
+Assim como você na faculdade, você irá criar um arquivo para colocar os códigos em CSS3 e depois nas páginas
+irá chamar está página <style.css>
+
+@charset "UTF-8";
+
+Todos os @ são regras
+
+Você pode usar mais de um link para CSS3
+
+
+MÓDULO 2
+
+Aula 1
+
+PSICOLOGIA DAS CORES
+
+"Grandes empresas de tcnologia utilizam da cor azul, por ela ser uma cor que passa credibilidade, inteligência e formalidade
+O azul é a cor mais aceita do mundo, sendo 46% aceita pelas pessoas"
+
+"O vermelho é uma faca de dois gumes, está associada tanto ao amor, como a raiva. Muitos sites de moda e comida utilizam o
+vermelho"
+
+Aula 2
+
+"Podemos colocar cores em representações hexadecimais"
+
+hexadecimal= 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, A, B, C, D, E, F
+
+exemplo de cores: #ffffff= Branco
+
+Você pode colocar as luzes em RGB, representando dessa maneira:
+
+color: rgb(0, 0, 255);
+
+hsl: representa a matriz, luminosidade
+
+hsl(240, 100%, 50%) = azul
+
+Aula 3
+
+Harmonia de cores
+
+Círculo cromático possui 12 cores principais!
+
+Cores primárias? Amarela, vermelho e azul.
+
+Cores sencundárias? Laranja, violeta e verde.
+
+Cores terciarias? São a junção das cores primárias e secundárias.
+
+"As cores terciarias, o nome delas se dá pela junção das cor primária mais secundária: Amarelo-esverdeado"
+
+"Paleta de cores, 3 a 5 cores"
+
+CORES COMPLEMENTARES
+
+
+" Para escolher cores se contrastem bem, basta definir uma cor e escolher o oposto dela no círculo cromático "
+
+CORES ANÁLOGAS
+
+São cores simililares no círculo cromático
+
+
+Cores análogas + uma cor complementar = técnica de paleta de cores.
+
+
+
+Aula 4
+
+
+PALETAS DE CORES
+
+
+Use o adobe color e anote o código da paletas de cores!
+
+palleton.com  : Site de paleta de cores e simulações de  site com aquela paleta de cores!
+
+colors+skillshare : Outro site de paleta de cores
+
+
+Aula 5
+
+DEGRADÊ NO CSS3
+
+você precisa usar a tag:
+background-image: linear-gradient(to right, white, blue);
+
+*{
+
+} : configurações globais das css3
+
+background-image: radial-gradient(circle)
+
+"Posso as cores do gradient com porcentagem"
+
+@charset "UTF-8"; para não ter problema com acentuação
+
+height: auto 100%; nas configurações globais do css3
+
+padding : Acochoamento, serve para deixar o conteúdo mais central.
+
+margin: "auto"; vai centralizar independente da tela
+
+border-radius: Serve para arredondar as bordas
+
+box-xadous: serve para adicionar sombra
+
+text-shadow: Para colocar sombra nos textos
+
+text-align: center, para ajudar o texto
+
+Aula 6
+
+Tipografia-fontes
+
+NO SITE DA W3 tem todas as safes combinations
+
+serif: para colocar fontes serifadas.
+san-serif: Para colocar fontes sem serifas.
+
+16px geralmente é o tamanho normal da font, utilize o (em) e o (px).
+
+16px= 1em
+
+
+Aula 7
+
+Larguras de fontes
+
+weight: significa largura da fonte
+
+as fontes possuem diversas larguras como (lighter, bold, normal, bolder)
+
+a variação numérica começa de 100-900
+
+
+text-decoration= "underline"; serve para sublinhar o texto. Nem todas as famílias de fontes permitem muitas variações,
+peso e estilo.
+
+"Você pode simplificar os estilos colocando, todos eles em uma só linha, mas precisa estar na ordem correta".
+
+(font-style; font-weight; font-size; font-family)
+
+Exemplo prático:
+
+font: italic bolder 3em 'work sans', sans-serfif;
+
+Aula 8
+
+Acesse o google fontes e importe a fonte pra dentro do css
+
+"Tudo que começa com @ deve ser iniciado logo abaixo do style nas primeiras linhas"
+
+digite @import para importar a fonte
+
+@font-face: para importar fonte baixada pro código
+
+use a extensão fontes ninjas para detectar fontes na net
+
+para detectar fontes por imagens use extensões ou programas prontos.
+
+
+Aula 9
+
+text-align: Justify : Para alinhar o texto dois lados
+
+text-ident: 20px; Serve para identar parágrafo
+
+Aula 10
+
+Use "id" para identificar os códigos
+
+na página css:
+
+use h1#principal
+
+Em html é id = em CSS é #
+em HTML é class = em CSS é 
+
+Aula 11
+
+"No HTML só pode usar um id"
+
+"Não dê nome as suas classes pela a forma e sim pela funcionalidade"
+
+NA PÁGINA DE CSS:
+
+Colosa-se o nome da class junto com o ponto por exemplo....
+
+
+.basico{
+
+}
+
+Você pode colocar mais de uma class em uma mesma linhda de código, não precisa usar vírgula.
+
+id >>>>> class
+
+Aula 12
+
+Pseudo class
+
+para colocar as div na mesma linha use (display: inline-block;)
+
+: são as pseudoclasses
+
+div:hover{
+	background-color: red
+}
+
+
+Você pode colocar um parágrafo escondido na div
+
+div > p{
+
+}
+
+display: block = Serve para mostrar coisas escondidas.
+
+Aula 13
+
+
+
+Pseudo-elementos 
+
+
+use viseted para mostrar que um link já foi visitado antes.
+
+text-decoration:None, para tirar o sublinhado dos links
+
+
+activr: Serve para configurar a cor do link quando você clicou nele.
+
+
+"Pseudo-classes definem estados de elementos dentro do html"
+"Pseudo-elementos mechem no conteúdo do elemento"
+
+::Pseudo-classes
+
+"Você pode usar classes e pseudo classes juntas"
+
+a::after = Serve para escrever coisas depois do link
+
+a::before= Serve para escrever coisas antes do link
+
+
+Aula 14
+
+
+
+MODELO DE CAIXAS
+
+padding : Acochoamento
+margin  : Margem
+outline : Contorno
+border  : Caixa
+height  : Altura
+width   : Largura
+
+
+TIPOS DE CAIXA
+
+box-level: Sempre que a caixa for começar ela vai pular pra linha de baixo e vai pular pra próxima linha
+antes de começar o conteúdo.
+exemplo: div, header, nav, article, aside, footer, form, video
+
+inline-level: Não quebra a linha e não ocupa a largura inteira
+exemplo: span,	a, code, small, strong, em, sup, sub, label, button, input, select  
+
+user-agente: Navegador
+
+
+o padding é divido em lados, lefet, right, top, bottom.       
+
+Para centralizar a caixa coloque (margin: auto;)
+
+SHORTHANDS DAS BORDAS:
+
+border: tamanho estilo cor
+
+SHORTHAND DAS padding
+
+"Tem que ser no sentindo horário"
+
+padding: Top right bottom left
+
+SHORTHAND DAS MARGIN:
+
+margin: xpx xpx xpx xpx
+
+para deixar centralizado
+
+margin: xpx auto xpx auto
+
+
+SHORTHAND OUTLINE:
+
+
+outline: xpx style cor
+
+
+"POSSO TRANSFORMAR UMA CAIXA EM INLINE OU EM LEVEL E ASSIM VICE-VERSA"
+
+inline-level: block
+
+
+Aula 14
+
+GROUPING TAGS
+
+Nem sei o que anotar pprt.
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aqua;
+            margin: 0px;
+        }
+        header{
+            background-color: azure ;
+            padding: 20px;
+            margin: 10px;
+        }
+        nav{
+            background-color: aquamarine;
+            padding: 10px;
+        }
+        nav > a{
+            text-decoration: none;
+            text-align: center;
+        }
+        nav > a:hover{
+            color: red;
+        }
+        
+        
+        
+        main{
+            background-color: azure;
+            padding: 20px;
+            margin: 0px;
+        }
+        h1{
+            text-align: center;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            border: 5px solid white;
+            margin: 0px;
+        }
+        article > aside{
+            background-color: aquamarine;
+        }     
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section>
+            <article>
+                <h2>					Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi repudiandae repellendus magni amet dolorum quod culpa quasi provident consequuntur dolor vero ad, qui, nemo, odio ex ducimus ea necessitatibus mollitia!</p>
+                <aside>
+                    <p>Artigo escrito por José</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvoldido por Lucão mc</p>
+    </footer>
+</body>
+</html>
+
+
+Aula 15
+
+Sombras
+
+
+box-shadow: Para colocar sombra nas caixas.
+
+shorthand para box-shadow: deslocamento horizontal, deslocamento vertical, espalhamento e cor
+
+Você pode ir no impressionar elemento e já adicionar a sombra e depois copiar pro css
+
+Aula 16
+
+
+Bordas decoradas
+
+
+Para importar uma borda use:
+
+border-image-source: url(nome do arquivo)
+border-image-slice: número da borda, serve para ajustar o tamanhon da borda
+border-image-repeat: Serve para repetir a borda
+
+
+Aula 17
+
+
+mockflow serve para planejar o layout do site!
+
+
+
+<header> : É o cabeçalho!
+
+<nav> : A área de navegação, serve para adicionar links e botões.
+
+a*4: Serve para colocar 4 links ou mais, vai da sua escolha.
+
+<main>: Conteúdo principal do site.
+
+<article>: Conteúdo do main
+
+<aside> : Fica dentro do main e é um conteúdo alternativo.
+
+<footer> : Pé do site ou rodapé do site.
+
+
+Aula 18
+
+Variáveis em CSS
+
+"variáveis servem para guardar valores"
+
+:root {
+		É uma pseudo class que serve para declarar as variáveis globais
+		"Todas as variáveis do css tem que começar com dois traços"
+}
+
+var(--cor1);
+
+
+@font-face: Serve para importar fontes do pc para o código.
+
+
+TUDO DO FONT-FACE COLOQUE COM ISSO '' '' '' '' '' '' '' ''
+
+
+*{
+	Serve para selecionar todos os elementos de html e css
+}
+
+
+Aula 19 
+
+
+RESPONSIVIDADE
+
+img : 
+
+width: 100%; para as imagens se adapatarem conforme o tamanho da tela!
+
+
+border-radius: Serve para arrendondar borda
+
+
+Aula 20
+
+line-height: Espaçamento entre linhas
+
+Para fazer um degradê transparente com back ground color use (transparent)	
+
+
+Aula 21
+
+list-style-position: inside;   : Serve para colocar as marcações da lista dentro do main
+
+columns: Número de colunas das listas.
+
+
+"Para colocar emoji nas listas, você precisa usar"
+
+list-style-type: '\2714'
+
+Para ter um espaçamento use:
+
+(00A0)
+
+Só é possível usar isso no chrome
+
+
+Pode usar números negativos nos paddings e margins
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

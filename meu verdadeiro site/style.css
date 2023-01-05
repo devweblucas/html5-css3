@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+body{
+    background-color: #4aca9d;
+    margin: 0px;
+}
+
+header{
+    background-image: linear-gradient(to top, #004000, #005E00, #009400, #00BA00);
+    padding: 20px 20px 10px 20px;  
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.616);
+}
+
+p#paragrafo{
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+article > h2{
+    text-align: left;
+    font-family: 'Ultra', serif;
+    font-weight: 200;
+    color: #015a01;
+}
+
+.identado{
+    text-indent: 20px;
+}
+article > h3{
+    font-family: 'Ultra', serif;
+    font-weight: normal;
+    color: #015a01;
+    background-image: linear-gradient(to right, rgba(15, 221, 15, 0.616), rgba(19, 197, 34, 0.575), white);
+}
+
+a{
+    color: #e40b0b;
+    text-decoration: none;
+    
+}
+
+abbr{
+    text-decoration: none;
+}
+
+article#verde{
+    background-color: #004000;
+    padding: 50px;
+    margin-top: 30px;    
+}
+
+h4{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    background-color: #007900;
+    color: white;
+    padding: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+footer{
+    background-color: #57c069;
+    padding: 10px;
+}
+
+p{
+    margin: 40px 0px 0px 0px;
+}
