@@ -884,6 +884,37 @@ Para carregar uma imagem dentro da div use:
 bacground-image: url('')
 
 
+vocÊ pode usar essa função para colocar como fundo
+
+
+Aula 2 
+
+Você pode usar imagens de outros sites.
+
+background-size: Configura o tamanho das imagens
+
+background-repeat:repeat-x or y : Serve para repetir em coluna ou linha
+
+Aula 3
+
+Configurando imagens de fundo
+
+
+background-position: Serve para posicionar a imagem no fundo
+
+
+
+vh: significa view port, vocÊ pode dizer quanto quer que seu navegador use.
+
+
+Aula 4
+
+Mudando tamanho das imagens
+
+
+background-size: Para aumentar ou diminuir o tamanho do wallpaper, neles você pode usar (contain) e (cover)
+
+
 
 
 
