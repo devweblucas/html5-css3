@@ -869,6 +869,22 @@ Só é possível usar isso no chrome
 Pode usar números negativos nos paddings e margins
 
 
+MÓDULO 3
+
+
+Aula 1
+
+Colocando imagem de wallpaper no seu site.
+
+Para criar "quadrados", as famosas div. Configure elas em estilos e use display: in-lin block; para deixa lás lado a lado
+
+
+Para carregar uma imagem dentro da div use:
+
+bacground-image: url('')
+
+
+
 
 
 
