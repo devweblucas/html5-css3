@@ -65,8 +65,10 @@ header a:hover{
 
 section{
     padding-top: 10vh;
+    padding-left: 30px;
     padding-bottom: 10vh;
-}
+    line-height: 2em;
+} 
 
 
 section.normal {
@@ -79,9 +81,16 @@ section.normal {
 section.modificada{
 
     background-color: aqua;
+    color: white;
+
 
 }
 
+section.modificada > p{
+
+    background-color: rgba(0, 0, 0, 0.678);
+    width: 500px;
+}
 
 
 footer{
