@@ -796,11 +796,15 @@ a*4: Serve para colocar 4 links ou mais, vai da sua escolha.
 
 <main>: Conteúdo principal do site.
 
+<section> : Só sei que o article vai dentro
+
 <article>: Conteúdo do main
 
 <aside> : Fica dentro do main e é um conteúdo alternativo.
 
 <footer> : Pé do site ou rodapé do site.
+
+
 
 
 Aula 18
@@ -913,6 +917,34 @@ Mudando tamanho das imagens
 
 
 background-size: Para aumentar ou diminuir o tamanho do wallpaper, neles você pode usar (contain) e (cover)
+
+
+Aula 5
+
+background-attachment: serve para configurar a interação do fundo com o mouse ao usar (fixed) você só passa o conteúdo do main,
+ao utilizar o (scroll) você consegue descer com o scrool do mouse o conteúdo inteiro
+
+
+shorthand - background:
+
+color > image > position > repeat > [size] > attachment
+
+
+Aula 6
+
+A maneira mais prática de centralizar o conteúdo é usando margin: auto
+
+
+
+Position: absolute: Para poder mecher verticalmente nas imagens e embaixo vocÊ configura left e right no main
+Position: relative no body 
+
+
+use:
+
+
+transform: translate(-50%, 50%); para centralizar
+	
 
 
 
