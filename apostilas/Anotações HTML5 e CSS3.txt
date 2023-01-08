@@ -944,10 +944,29 @@ use:
 
 
 transform: translate(-50%, 50%); para centralizar
-	
+
+
+Aula 7
 
 
 
+Para deixar todas as letras maíusculas use:
+
+font-variant: small-caps;
+text-transform: uppercase;
+
+
+Aula 8
+
+Como usar o efeito paralax
+
+É SÓ USAR:
+
+background-attachement: fixed;
+
+
+
+https://devweblucas.github.io/site-cordel/
 
 
 
