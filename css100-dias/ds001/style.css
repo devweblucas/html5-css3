@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+
+:root{
+    --font01: 'Passion One', cursive;
+}
+
+body{
+    background-image: linear-gradient(to right, #433ba0, #4ec3c9);
+    color: white;
+    font-weight: bolder;
+}
+
+.number {
+    position: absolute;
+    top: 30%;
+    left: 45%;  
+    font-size: 10em;
+    font-weight: bold;
+    font-family: var(--font01);
+}
+
+.days{
+    position: absolute;
+    top: 49%;
+    left: 45.5%;
+    font-size: 7em;
+    font-weight: lighter;
+    font-family: var(--font01);
+}
+
+.outline{
+    position: absolute;
+    font-size: 1.5em;
+    font-weight: bold;
+    top: 64%;
+    left: 45.8%;
+}
+
+
