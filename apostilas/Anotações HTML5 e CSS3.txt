@@ -973,6 +973,104 @@ https://devweblucas.github.io/site-cordel/
 
 Aula 9
 
+Tabela
+
+
+use:
+
+<table> = tabela
+<tr> = Linha de tabela
+<table header> = Cabeçalho de tabela
+<td> = dado de tabela
+
+border-collapse: collapse; Serve para juntar o espçamento entre as linhas
+
+
+
+Aula 10
+
+Alinhando Tabelas
+
+
+Use:
+
+vertical-align: Para alinhar verticalmente dentro da caixa
+
+
+"Nas tabelas do html os números não ficam por padrão a direita. isso você tem que configurar"
+
+
+Aula 11
+
+Anatomia de tabelas
+
+
+Table
+	Thead
+		tr, td, th
+	Tbody
+		tr, td, th
+	Tfoot
+		tr, td, th
+
+
+
+<th> você usa como título das tabelas
+
+
+Aula 11
+
+Escopo e Caption
+
+
+
+Caption: é o título do título da tabela
+
+scope: Serve para dizer ao html o que é título da tabela e de linha
+
+usa scope: col: Quando é título da coluna
+usa scope: row Quando é título da linha
+
+
+Aula 12
+
+Efeito zebrado
+
+
+tbody > tr:nth-child(2n) {
+            background-color: aqua;
+}
+
+:nth-child(DE QUANTAS EM QUANTAS AS LINHAS ESTARÃO PINTADAS)
+
+odd = ímpar
+even= par
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
