@@ -1047,6 +1047,33 @@ odd = ímpar
 even= par
 
 
+Aula 13
+
+Cabeçalho fixo em tabelas grandes.
+
+
+thead > tr > th{
+	position: sticky;
+	top: 0;
+	background-color: ;
+}
+
+
+Aula 14
+
+Mesclagem de células
+
+
+use no conteúdo ou no título da tabela:
+
+<td colspan ="2"></td> Serve para aumentar a ocupação de colunas
+
+
+
+rowspan="";
+
+
+
 
 
 
