@@ -1073,6 +1073,41 @@ use no conteúdo ou no título da tabela:
 rowspan="";
 
 
+Aula 15
+
+
+Novos scopes
+
+colgroup= Para identificar th de células mescladas em colunas
+rowgroup= Para identificar th de células mescladas em Linhas
+
+
+
+Aula 16
+
+Agrupando colunas
+
+use a tag:
+
+<colgroup> para selecionar a coluna, use ela dentro de table
+col: Coluna
+
+
+"Use span=""; para dizer quantas colunas sofrerão aquela configuração" Coloque no col
+
+Aula 17
+
+Tabelas responsivas
+
+
+Primeiro envelope a tabela em uma div
+
+Depois use a tag:
+
+overflow, overflow-y, overflow-x e coloque no auto
+
+
+
 
 
 
