@@ -1108,6 +1108,16 @@ overflow, overflow-y, overflow-x e coloque no auto
 
 
 
+Módulo 4
+
+Uso de IFrames
+
+para usar IFrame no visualcode, use:
+
+digite a tag <iframe> digite e não der enter logo de início
+
+
+
 
 
 
