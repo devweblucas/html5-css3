@@ -1,3 +1,5 @@
+
+
 HTM5, CSS3 E JAVASCRIPT
 
 Aula 1
@@ -1115,6 +1117,49 @@ Uso de IFrames
 para usar IFrame no visualcode, use:
 
 digite a tag <iframe> digite e não der enter logo de início
+
+
+Aula 2
+
+
+Configurando IFrames
+
+
+Caso o navegador não seja compatível com IFrame coloque a mensagem dentro do campo da tag
+
+o padrão do IFrame é 300 x 150
+
+
+as css são superiores
+
+use o parâmetro:
+
+scolling= "no"; Para não aparecer a barra de rolagem
+
+Aula 3
+
+Para colocar iFrame do seu próprio site, basta vocÊ colocar o link do seu site local
+
+Aula 4
+
+Navegação no IFrame
+
+
+Para fazer uma página do seu próprio site carregar no Iframe da página principal, configure o IFrame com a tag
+
+name"";
+
+e Depois no link coloque o Target com o mesmo name não importa quantas páginas sejam.
+
+
+Aula 5
+
+
+Conteúdo no IFrame
+
+Você pode colocar códigos no IFrame use o parâmetro:
+
+srcdoc:
 
 
 
