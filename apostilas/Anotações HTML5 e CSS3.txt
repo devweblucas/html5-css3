@@ -1161,6 +1161,17 @@ Você pode colocar códigos no IFrame use o parâmetro:
 
 srcdoc:
 
+Aula 6
+
+O que eu aprendi foi que para colocar uma imagem em cima de outra imagem, primeiro precisa de um background-color aí depois tira
+
+
+box-sizing: border-box; Para a borda fazer parte da caixa
+
+::-webkit-scrollbar {
+            width: 0%;
+            margin: 0%;
+        }                  isso serve para esconder a barra de rolagem
 
 
 
