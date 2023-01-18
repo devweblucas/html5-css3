@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Label</title>
+</head>
+<body>
+   
+   <h1>
+    Login
+   </h1>
+
+    <form autocomplete="off" action="formulario.php" method="post">
+        <p>
+            <label for="inome">Usuário</label>
+            <input type="text" name="nome" id="inome" require autocomplete="username"> 
+        </p>
+
+        <p>
+            <label for="isenha">Senha</label>
+            <input type="password" name="senha" id="isenha" required maxlength="10" placeholder="Digite sua senha" autocomplete="new-password"> 
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Deletar">
+        </p>
+
+        <p>
+            <label for="sexo">sexo</label>
+            
+        </p>
+
+    </form>
+    
+</body>
+</html>
