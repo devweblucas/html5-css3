@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OutPut</title>
+</head>
+<body>
+    <h1>OutPut</h1>
+    <form action="formulario.php" method="post">
+        <p>
+            <label for="ival1">Valor 1</label>
+            <input type="number" name="val" id="ival1" oninput="ires.innerHTML = Number(ival1.value) + Number(ival2.value)" required>
+        </p>
+
+        <p>
+            <label for="">Valor 2</label>
+            <input type="number" name="val2" id="ival2" oninput="ires.innerHTML = Number(ival1.value) + Number(ival2.value)" required>
+        </p>
+
+        <p>
+            <label for="ires">Resultado:</label>
+            <output name="res" id="ires">0</output>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Apagar">
+        </p>
+
+        <p>
+            <label for="irangee"></label>
+            <input type="range" name="rangee" id="irangee" min="1" max="10" value="5" oninput="ivalor.innerHTML = Number(irangee.value)">
+            <output name="valor" id="ivalor">5</output>
+        </p>
+
+        <p>
+            <label for="inumber">Em que ano vocô nasceu:</label>
+            <input type="number" name="number" id="inumber" min="2000" max="2022" oninput="iidade.innerHTML = Number(inumber.value) - Number(2023)>
+        
+        </p>
+        
+        <p>
+            <label for="iidade">Sua idade é:</label>
+            <output name="idade" id="iidade">0</output>
+        </p>
+
+
+       
+    </form>
+    
+</body>
+</html>
