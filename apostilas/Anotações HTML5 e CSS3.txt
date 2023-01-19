@@ -1176,123 +1176,107 @@ box-sizing: border-box; Para a borda fazer parte da caixa
 
 
 
+Aula 7
 
+Formulários
 
+"Todos os formulários precisam estar na tag <form>
 
 
+depois basta ocolocar a tag input para colocar a caixa
 
+input submit para enviar as coisas do formulário
 
 
+Aula 8
 
+Label
 
 
+"Para desligar a sugestão de nomes dos formulários, você precisa digitar depois de <form>
+autocomplete: off"
 
 
+"Para enviar um dado de um fomrulário você precisa no <form> digitar action para colocar um script
+para alguma linguagem de programação back=end"
 
 
 
+name é mais útil para php
 
+e id é mais útil para javascript
 
 
+Para ligar uma caixa ao seu conceito:
 
 
 
+envelope o título da caixa com label e depois em for digite o id ou name
 
 
 
+Aula 9
 
+method= post ou get para não aparecer e para aparecer os dados na url
 
+post = n
+get  = S
 
 
+Get tem um armazenamento de 3000 letras aproximadamente no formulário
 
+Post para enviar arquivos use-o
 
 
+Como fazer para o formulário não enviar dados vazios:
 
 
+Dentro do input digite required	
 
 
+minlength e maxlength: Serve typar qual a quantidade máxima e mínima de letras.
 
+size: serve para dizer quantos caracteres vão mostrar por vez
 
 
+placeholder: Serve para dar dicas ao usuário
 
 
+autocomplete nos inputs tem várias funções, por exemplo autocomplete em um inpunt de passoword
+(current-passoword) para mostrar uma senha sua senha já cadastrada
 
 
+Aula 10
 
+setp= Serve para dizer de quanto em quanto a nota vai mudando
 
+em númerico vocÊ usa min e max
 
+input mounth para oclocar mês
 
+value para colocar valores
 
 
 
+Aula 11
 
-    
+Para agrupar todas as caixas em um só campo, envelope tudo na tag 
 
+<fieldset>
 
+e
 
+<legend>: título do formulário
 
 
+Aula 12
 
+Para colocar checkbox não precisa de label
 
+input radio para sexo
 
+Para resolver o problema de marcar os dois no sexo coloque o mesmo name no radio
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
 
 
 
