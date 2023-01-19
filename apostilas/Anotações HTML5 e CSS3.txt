@@ -1277,6 +1277,66 @@ input radio para sexo
 
 Para resolver o problema de marcar os dois no sexo coloque o mesmo name no radio
 
+"Coloque checekd para o valor já vim marcado"
+
+Aula 13
+
+"Quando usar o enviar aruivos use o post"
+
+Aula 14
+
+Para usar seleção de estados use a tag
+
+<select>
+
+e para colocar os valores use a tag <option>
+
+
+
+Coloque todos os option dentro do select
+
+
+
+<optgroup> : Para agrupar os estados ou qualquer outra coisa por região
+
+"Depois use o label dentro para um título de grupo"
+
+VocÊ pode usar uma lista dentro de uma caixa de texto, para isso use a tag
+
+datalist
+e o option dentro
+
+crie um id para datalist
+
+e no input text coloque um list e depois o id de datalist
+
+"Posso organizar as datalist por optgroup"
+
+
+Para criar um área de mensagens, use uma textarea
+
+
+textarea{
+        
+	resize: none;
+}
+
+ESTE COMANDO SERVE PARA O USUÁRIO NÃO PODER AUMENTAR O TAMANHO DA CAIXA DE MENSAGEM.
+
+
+Aula 15
+
+ELEMENTO OUTPUT EM FORMULÁRIOS HTML
+
+output serve para colocar valores abaixo
+
+oninput="isoma.innerHTML = Number(ival1.value) + Number(ival2.value)"
+
+script acima
+
+
+"O output não é para enviar nada, é apenas para mostrar coisas na tela"
+
 
 
 
