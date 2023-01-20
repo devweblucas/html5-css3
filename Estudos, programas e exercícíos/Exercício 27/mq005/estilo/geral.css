@@ -29,10 +29,6 @@ menu ul{
     list-style-type: none;
 }
 
-menu{
-    width: 80vw;
-    margin: auto;
-}
 
 menu a{
     color: white;
