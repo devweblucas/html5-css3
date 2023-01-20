@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo/geral.css" media="all">
+    <link rel="stylesheet" href="estilo/style.css">
     <title>Meu site</title>
 
 </head>
@@ -12,8 +13,8 @@
     
     <header>
         <h1>Meu Site</h1>
-        
-        <menu>
+        <img src="imagens/menu-aberto.png" alt="menu" onclick="clickMenu()">
+        <menu id="itens">
             <ul>
             <li><a href="#">Opção 1</a></li>
             <li><a href="#">Opção 2</a></li>
@@ -45,6 +46,14 @@
     <footer>
 
     </footer>
-
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else{
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>

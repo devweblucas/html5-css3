@@ -29,6 +29,9 @@ menu ul{
     list-style-type: none;
 }
 
+menu{
+    display: none;
+}
 
 menu a{
     color: white;
@@ -64,4 +67,15 @@ article p{
     text-align: justify;
     text-indent: 20px;
     
+}
+
+img{
+    width: 32px;
+    margin-bottom: -10px;
+    display: block;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+
+    margin: auto;
+    cursor: pointer ;
 }
