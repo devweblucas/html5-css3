@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+*{
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+
+/*Estilo para impressora*/
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+article::after {
+	content: "https://github.com/devweblucas"	
+}
