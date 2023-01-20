@@ -1337,7 +1337,38 @@ script acima
 
 "O output não é para enviar nada, é apenas para mostrar coisas na tela"
 
+Aula 16
 
+Media Queries
+
+Coloque media no link do css para identificar se aquele css é pra home, página de trás ou para tudo
+
+
+media: print:: Para impressora
+
+
+article::after {
+
+	content: LINK	
+
+}
+
+
+Isto serve para colocar coisas depois do artigo
+
+Aula 17
+
+Media features são escritas geralmente entre parÊnteses
+
+
+<link rel="stylesheet" href="estilo/retrato.css" media="screen and (orientation: portrait)"> Serve para colocar orientação em modo retrato
+
+
+<link rel="stylesheet" href="estilo/paisagem.css" media="screen and (orientation: landscape)"> Serve para colocar orientação em modo paisagem
+
+
+
+background-repeat: no-repeat; Para não repetir
 
 
 
