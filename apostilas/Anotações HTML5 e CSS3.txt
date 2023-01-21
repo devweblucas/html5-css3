@@ -1372,6 +1372,28 @@ background-repeat: no-repeat; Para não repetir
 
 
 
+Aula 18
+
+Reunindo tudo em CSS3
+
+
+
+use um @media screen e as configurações de css coloque dentro dos parâmetros
+
+
+Aula 19
+
+Mobile first
+
+Aula 20
+
+Device Brekpoints
+
+
+
+cursor pointer: Para aparecer a mão quando passar o mouse em cima
+
+
 
 
 
