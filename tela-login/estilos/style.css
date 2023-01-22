@@ -1,0 +1,236 @@
+@charset "UTF-8";
+
+/*
+    Paleta de cores
+    Verde: #49a69d
+    Lilás: #5f2c82
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+    position: relative;
+    background-image: linear-gradient(to bottom, #5f2c82, #49a69d);
+}
+
+main{
+    position: absolute;
+    background-color: white;
+    border-radius: 20px;
+    height: 560px;
+    width: 250px;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+}
+
+div#imagem{
+    background: black url('../imagem/pexels-pixabay-53176.jpg');
+    background-size: cover;
+    border-radius: 20px;
+    height: 200px;
+    width: 250px;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+
+p{
+    text-align: justify;
+    margin: 10px;
+}
+
+input{
+    display: inline-block;
+}
+
+input#iuser{
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    width: 225px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: 3px solid #5f2c82;
+}
+
+input#ipass{
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    width: 225px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: 3px solid #5f2c82;
+}
+
+
+input#enter{
+    background-color: #49a69d;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+    width: 230px;
+}
+
+input#enter:hover{
+    background-color: #5ccec2;
+}
+
+input#esqueci{
+    background-color: #70c770;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+    width: 230px;
+}
+
+input#esqueci:hover{
+    background-color: #22504b;
+}
+
+
+@media screen and (min-width: 750px) and (max-width: 950px){
+
+    main{
+        width: 700px;
+        height: 350px;  
+    }
+
+    div#imagem{
+        background: black url('../imagem/pexels-pixabay-53176.jpg');
+        background-size: cover;
+        border-radius: 20px;
+        height: 350px;
+        width: 300px;
+        display: inline-block;
+        
+    }
+
+    div#formulario{
+        position: absolute;   
+        display: inline-block;
+    
+    }
+
+    input#iuser{
+        border-radius: 5px;
+        color: white;
+        font-weight: bolder;
+        width: 375px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+    
+    input#ipass{
+        border-radius: 5px;
+        color: white;
+        font-weight: bolder;
+        width: 375px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+    
+    
+    input#enter{
+        background-color: #49a69d;
+        border-radius: 5px;
+        color: white;
+        font-weight: bolder;
+        padding: 5px;
+        width: 380px;
+    }
+    
+    
+    input#esqueci{
+        background-color: #70c770;
+        border-radius: 5px;
+        color: white;
+        font-weight: bolder;
+        padding: 5px;
+        width: 380px;
+    }
+    
+}
+
+@media screen and (min-width: 950px) and (max-width:1450px) {
+    
+    main{
+        width: 700px;
+        height: 350px; 
+    }
+
+    div#imagem{
+        background: black url('../imagem/pexels-pixabay-53176.jpg');
+        background-size: cover;
+        border-radius: 20px;
+        height: 350px;
+        width: 300px;
+       display: inline-block;
+       transform: translateX(140%)  
+    }
+
+    div#formulario{
+        position: absolute;
+        display: inline-block;
+        transform: translateX(-73%);
+       
+    }
+
+    input#iuser{
+        border-radius: 5px;
+        color: white;
+        font-weight: bolder;
+        width: 375px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+    
+    input#ipass{
+        border-radius: 5px;
+        color: white;
+        font-weight: bolder;
+        width: 375px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+    
+    
+    input#enter{
+        background-color: #49a69d;
+        border-radius: 5px;
+        color: white;
+        font-weight: bolder;
+        padding: 5px;
+        width: 380px;
+    }
+    
+    
+    input#esqueci{
+        background-color: #70c770;
+        border-radius: 5px;
+        color: white;
+        font-weight: bolder;
+        padding: 5px;
+        width: 380px;
+    }
+
+
+}
