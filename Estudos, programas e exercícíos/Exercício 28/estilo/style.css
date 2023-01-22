@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+/*
+    Paleta de cores:
+    Verde: #49a09d
+    Lilás: #5f2c82
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor1: #49a09d;
+    --cor2: #5f2c82;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    position: relative;
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor1));
+}
+
+img{
+    width: 1500px;
+    height: 1100px;
+}
+
+div#imagem{
+    position: absolute;
+    
+    left: 50%;
+    top: 25%;
+}
+ 
+main{
+    background-color: white;
+    width: 1500px;
+    height: 1100px;
+}
+
+h1{
+    color: rgb(255, 8, 8);
+    
+}
+
+p{
+
+}
