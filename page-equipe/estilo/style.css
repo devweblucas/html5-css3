@@ -178,10 +178,6 @@ section#stan >p{
 }
 
 @media  screen and (min-width: 320px) and (max-width: 950px){
-   
-    body{
-        background-color: aqua;
-    }
 
     header > h1{  
         top: 5%;
@@ -217,26 +213,82 @@ section#stan >p{
         width: 150px;
         height: 220px;
     }
+
+    section#bill > p{
+        top: 24%;
+        left: 63%;
+    }
     
+    section#soba{
+       top: 50%;
+       left: 50%;
+    }
     section#soba > img{
         width: 150px;
         height: 220px;
     }
 
-    section#shae{
-        display: none;
+    section#soba > p{
+        top: 22%;
+        left: 67%;
     }
 
+    section#shae{
+        top: 90%;
+        left: 4%;
+    }
+     section#shae > img{
+         width: 150px;
+         height: 220px;
+    }
+ 
+     section#shae > p{
+         top: 16%;
+         left: 76%;
+    }
+    
     section#sky{
-        display: none;
+        top: 100%;
+        left: 50%;
+    }
+     section#sky > img{
+        width: 150px;
+        height: 220px;
+    }
+ 
+    section#sky > p{
+        top: 20%;
+        left: 69%;
     }
 
     section#griff{
-        display: none;
+        top: 140%;
+        left: 4%;
+    }
+    section#griff > img{
+         width: 150px;
+         height: 220px;
+    }
+ 
+    section#griff > p{
+         top: 10%;
+         left: 86%;
     }
 
     section#stan{
-        display: none;
+        top: 150%;
+        left: 50%;
     }
+    section#stan > img{
+         width: 150px;
+         height: 220px;
+    }
+ 
+    section#stan > p{
+         top: 10%;
+         left: 86%;
+    }
+
+    
 
 }
